@@ -4,4 +4,4 @@ local Owners = {
     5010380950, -- kingy
 }
 
-return Owners;
+return Owners
