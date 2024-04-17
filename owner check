@@ -1,0 +1,7 @@
+local Owners = {
+    224423982, -- hiro
+    3930958583, -- anwar
+    5010380950, -- kingy
+}
+
+return Owners;
