@@ -1,0 +1,5 @@
+local PremiumBuyers = {
+    134254680, -- stefan
+    3162758638, -- kyu
+}
+return PremiumBuyers;
