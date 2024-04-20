@@ -23,12 +23,15 @@ local function Image(ID, Button)
 end
 
 local function Round2px()
-	local NewImage = Image("http://www.roblox.com/asset/?id=5761488251");
-	NewImage.ScaleType = Enum.ScaleType.Slice;
-	NewImage.SliceCenter = Rect.new(2, 2, 298, 298);
-	NewImage.ImageColor3 = Color3.fromRGB(30, 30, 30);
-	return NewImage;
+    local NewImage = Image("http://www.roblox.com/asset/?id=5761488251")
+    NewImage.ScaleType = Enum.ScaleType.Slice
+    NewImage.SliceCenter = Rect.new(2, 2, 298, 298)
+    NewImage.ImageColor3 = Color3.fromRGB(30, 30, 30)
+    -- Adjusting the position to the right and down
+    NewImage.Position = UDim2.new(1, -114, 1, -120) -- Adjust the values as needed
+    return NewImage
 end
+
 
 local function Shadow2px()
 	local NewImage = Image("http://www.roblox.com/asset/?id=5761498316");
