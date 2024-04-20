@@ -199,8 +199,8 @@ return {
             if (Icon) then
                 local IconLabel = Instance.new("ImageLabel");
                 IconLabel.Image = Icon;
-                IconLabel.Size = UDim2.fromOffset(36, 36); -- Adjust size to make it bigger
-                IconLabel.Position = UDim2.new(1, -50, 0.5, -18); -- Position to the right of the text
+                IconLabel.Size = UDim2.fromOffset(96, 96); -- Adjust size to make it 4 times bigger
+                IconLabel.Position = UDim2.new(1, -114, 0.5, -48); -- Position to the right of the text
                 IconLabel.AnchorPoint = Vector2.new(1, 0.5); -- Set anchor point to the right
                 IconLabel.BackgroundTransparency = 1;
                 IconLabel.Parent = NewLabel;
@@ -208,7 +208,7 @@ return {
             
             if (Title) then
                 local NewTitle = TitleLabel(Title);
-                NewTitle.Size = UDim2.new(1, -64, 0, 26); -- Adjust size to accommodate bigger icon
+                NewTitle.Size = UDim2.new(1, -124, 0, 26); -- Adjust size to accommodate bigger icon
                 NewTitle.Position = UDim2.fromOffset(10, 0);
                 NewTitle.Parent = NewLabel;
             end
@@ -227,3 +227,4 @@ return {
         end
     end,
 }
+
