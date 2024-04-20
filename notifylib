@@ -203,7 +203,7 @@ return {
                 local IconLabel = Instance.new("ImageLabel");
                 IconLabel.Image = Icon;
                 IconLabel.Size = UDim2.fromOffset(96, 96); -- Adjust size to make it 4 times bigger
-                IconLabel.Position = UDim2.new(1, -114, 0.5, -200); -- Position to the right of the text
+                IconLabel.Position = UDim2.new(1, -50, 0.5, -22); -- Position to the right of the text
                 IconLabel.AnchorPoint = Vector2.new(1, 0.5); -- Set anchor point to the right
                 IconLabel.BackgroundTransparency = 1;
                 IconLabel.Parent = NewLabel;
