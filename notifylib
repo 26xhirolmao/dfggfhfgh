@@ -28,7 +28,7 @@ local function Round2px()
     NewImage.SliceCenter = Rect.new(2, 2, 298, 298)
     NewImage.ImageColor3 = Color3.fromRGB(30, 30, 30)
     -- Adjusting the position to the right and down
-    NewImage.Position = UDim2.new(1, -114, 1, -120) -- Adjust the values as needed
+    NewImage.Position = UDim2.new(1, -114, 1, -160) -- Adjust the values as needed
     return NewImage
 end
 
