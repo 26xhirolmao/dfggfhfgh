@@ -22,17 +22,15 @@ local function Image(ID, Button)
 	return NewImage;
 end
 
-local function Round2px(descriptionWidth)
+local function Round2px()
     local NewImage = Image("http://www.roblox.com/asset/?id=5761488251")
     NewImage.ScaleType = Enum.ScaleType.Slice
     NewImage.SliceCenter = Rect.new(2, 2, 298, 298)
     NewImage.ImageColor3 = Color3.fromRGB(30, 30, 30)
-    -- Adjusting the position to the right of the description text
-    NewImage.Position = UDim2.new(0, descriptionWidth + 10, 0, 0) -- Adjust the X position as needed
+    -- Adjusting the position to the right and down
+    NewImage.Position = UDim2.new(1, -114, 1, -120) -- Adjust the values as needed
     return NewImage
 end
-
-
 
 
 local function Shadow2px()
@@ -232,4 +230,3 @@ return {
         end
     end,
 }
-
